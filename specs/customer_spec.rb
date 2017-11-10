@@ -123,4 +123,6 @@ class TestCustomer < MiniTest::Test
     @customer.check_stock(@items, "Vodka")
     assert_equal(true, @customer.check_stock(@items, "Vodka"))
   end
+
+  
 end

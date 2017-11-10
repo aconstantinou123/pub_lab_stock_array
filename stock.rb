@@ -15,5 +15,13 @@ class Stock
     end
   end
 
+  def total_stock(items)
+    total = 0
+    for item in items
+      total += item[:stock]
+    end
+    return total
+  end
+
 
 end
